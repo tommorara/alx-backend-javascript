@@ -1,47 +1,31 @@
-# 0x00. ES6 Basics
+# alx-backend-javascript
 
-Welcome to the **ES6 Basics** project of the **alx-backend-javascript** repository. This project introduces core features of ECMAScript 6 (ES6) and reinforces key concepts in modern JavaScript development, such as block scoping, arrow functions, template literals, spread/rest operators, and iterators.
+Welcome to the **alx-backend-javascript** repository! 🎉
 
----
-
-## 📚 Learning Objectives
-
-By the end of this project, you should be able to:
-
-- Explain what ES6 is and the benefits of using it
-- Use `const` and `let` effectively
-- Understand block-scoped variables
-- Write and use arrow functions
-- Set default parameters in functions
-- Use rest and spread syntax
-- Create strings using template literals
-- Use shorthand property names in objects
-- Understand iterables and iterators
-- Write concise and modern for-of loops
+This repository contains projects and learning exercises focused on building robust backend systems using **JavaScript (ES6+)**, with an emphasis on modern syntax, scalable design, and backend-specific patterns. These projects are part of the **ALX Software Engineering Program**.
 
 ---
 
-## ⚙️ Requirements
+## 📘 About
 
-- OS: Ubuntu 18.04 LTS
-- NodeJS version: `v12.11.x`
-- Use the `js` extension for all JavaScript files
-- All code must be run through ESLint and Jest (testing framework)
-- Use editors like `vi`, `vim`, `emacs`, or `VS Code`
-- All files should end with a newline
-- Each function must be exported properly
-- A `README.md` at the root directory is **mandatory**
+This repo serves as the foundational learning ground for mastering backend development with JavaScript. The goal is to explore key backend concepts through structured hands-on projects, while embracing best practices like **linting**, **testing**, and **modularization**.
+
+Each subdirectory within this repository is a standalone project that covers a specific backend topic or JavaScript concept.
 
 ---
 
-## 🔧 Setup Instructions
+## 🧠 What You'll Learn
 
-### Install Node.js & npm
+- Modern JavaScript (ES6+): syntax, scope, functions, templates
+- Server-side programming fundamentals
+- Modular architecture
+- Backend design patterns
+- Unit testing with **Jest**
+- Code quality enforcement with **ESLint**
+- Use of Babel for ES6+ support in Node.js
 
-```bash
-curl -sL https://deb.nodesource.com/setup_12.x -o nodesource_setup.sh
-sudo bash nodesource_setup.sh
-sudo apt install nodejs -y
-nodejs -v  # Should output v12.11.1
-npm -v     # Should output 6.11.3
+---
+
+## 📁 Repository Structure
+
 

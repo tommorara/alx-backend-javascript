@@ -1,13 +1,17 @@
 {
-  "name": "0x00-es6_basic",
+  "name": "es6-basics",
   "version": "1.0.0",
-  "description": "Welcome to the **ES6 Basics** project of the **alx-backend-javascript** repository. This project introduces core features of ECMAScript 6 (ES6) and reinforces key concepts in modern JavaScript development, such as block scoping, arrow functions, template literals, spread/rest operators, and iterators.",
-  "main": ".eslintrc.js",
+  "type": "module",
   "scripts": {
-  "dev": "babel-node"
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "node --no-warnings --loader @babel/register"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "devDependencies": {
+    "@babel/core": "^7.0.0",
+    "@babel/preset-env": "^7.0.0",
+    "@babel/register": "^7.0.0"
+  },
+  "babel": {
+    "presets": ["@babel/preset-env"]
+  }
 }
+

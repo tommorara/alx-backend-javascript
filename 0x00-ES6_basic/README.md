@@ -8,6 +8,7 @@ Welcome to the **ES6 Basics** project of the **alx-backend-javascript** reposito
 
 By the end of this project, you should be able to:
 
+
 - Explain what ES6 is and the benefits of using it
 - Use `const` and `let` effectively
 - Understand block-scoped variables

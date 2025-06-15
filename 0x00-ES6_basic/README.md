@@ -45,4 +45,3 @@ sudo bash nodesource_setup.sh
 sudo apt install nodejs -y
 nodejs -v  # Should output v12.11.1
 npm -v     # Should output 6.11.3
-

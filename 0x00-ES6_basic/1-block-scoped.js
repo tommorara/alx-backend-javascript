@@ -3,7 +3,9 @@ export default function taskBlock(trueOrFalse) {
   const task2 = true;
 
   if (trueOrFalse) {
-    // we don’t redeclare new variables, we just keep this block
+    const newTask = true;
+    const newTask2 = false;
+    console.log(newTask, newTask2); // just to use them (avoids lint error)
   }
 
   return [task, task2];
